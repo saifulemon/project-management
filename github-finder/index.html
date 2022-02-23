@@ -5,13 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/litera/bootstrap.min.css">
     <title>Github Finder</title>
 </head>
 
 <body>
 
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Github Finder</a>
+        </div>
+    </nav>
+
+    <div class="container searchContainer">
+        <div class="search card card-body">
+            <h1>Search Github Users</h1>
+            <p class="lead">Enter a username to fetch a user profile and repos</p>
+            <input type="text" id="serchUser" class="form-control" placeholder="Github Username...">
+            <button id="searchBth" class="btn btn-success">Submit</button>
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+    <footer class="mt-5 p-3 text-center bg-light">Github Finder &copy;</footer>
 
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/ui.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
